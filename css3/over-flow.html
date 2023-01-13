@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Overflow </title>
+    <style>
+        /* likha ak line a show korte */
+        /* jokhon scroll use kora jai nah tokhon text-overflow ellipsis tag style a use korte hoi */
+        .box0{
+            width: 100px;
+            border: 2px solid rebeccapurple;
+        }
+        .text{
+         white-space: nowrap;
+         overflow: hidden;
+         text-overflow: ellipsis;
+        }
+        .box1 {
+            height: 200px;
+            width: 200px;
+            border: 5px solid goldenrod;
+           /* overflow: scroll; dile x-axis r y-axis borabor scroll-bar dekha jai  */
+          overflow-y: scroll;
+        }
+
+        .box2 {
+            height: 200px;
+            width: 200px;
+            border: 5px solid brown;
+            /* overflow: hidden; dile overflow howa lekha gulo dekha jai nah */
+            /* overflow: scroll; */
+            overflow-y: scroll;
+        }
+    </style>
+
+</head>
+
+<body>
+    <h1>To control overflow </h1>
+    <div class="box0">
+        <p class="text" title="Lorem ipsum dolor, sit amet consectetur adipisicing.">Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+    </div>
+    <div class="box1">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit sunt ad nam dolore! Eum corrupti enim veritatis
+            sunt iste magnam suscipit. Quidem non voluptatibus, facere numquam, est ducimus quos quia natus libero
+            consequuntur adipisci, ratione commodi dolore assumenda ut tempora iste dolorem voluptas eaque corrupti
+            nostrum eveniet dicta hic error. Nemo vel at dignissimos, obcaecati corrupti ullam ad sit dicta doloribus,
+            sequi cumque delectus libero sunt quos itaque nesciunt esse repudiandae tempore deserunt porro ducimus amet.
+            Fuga dolores pariatur a possimus reiciendis hic unde atque, accusamus quis ea eveniet vitae, natus ad rem,
+            id deserunt accusantium error! Perspiciatis velit non eum cum quia optio voluptatibus nam mollitia minima
+            sed voluptatum, nihil minus veniam tenetur pariatur sunt natus architecto doloribus vel perferendis
+            recusandae incidunt dicta consequuntur? Commodi error deserunt quas nemo rerum et voluptates! Adipisci sed
+            ducimus illo cumque! Eligendi, dignissimos voluptas ad amet quae provident reprehenderit, at, impedit
+            voluptate perspiciatis praesentium! Veritatis facere omnis voluptates doloremque dolor culpa optio, dolore
+            quibusdam quos maxime quisquam ut quod minus, nemo incidunt doloribus dolorem sit hic voluptas totam fugiat.
+            Consequuntur animi odio consequatur iusto ullam debitis. Praesentium cupiditate consectetur, fugit ut
+            aspernatur facilis fugiat veritatis alias quis ullam, laudantium labore sint, deserunt eligendi?</p>
+    </div>
+    <div class="box2">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, fugiat! Fugiat sint asperiores eveniet
+            deleniti provident architecto minus labore quam consectetur magni illo explicabo autem repellat tempore
+            reprehenderit, impedit sed nemo consequuntur in aut esse quis. Et quam ullam sint saepe eum qui voluptates
+            molestiae deleniti fuga, sit a laudantium est eveniet consequatur doloribus quis quibusdam vitae adipisci
+            suscipit officiis ducimus! Quod officia in ipsum voluptates, doloribus quia qui vel distinctio vitae rerum
+            hic, a atque aperiam inventore odio dolor molestias eius, itaque dolores expedita! Qui rem nulla voluptatum
+            dolores eveniet, nesciunt doloremque esse omnis sit quis placeat, ut consequatur cumque iure ipsam
+            laudantium necessitatibus reiciendis neque repellat reprehenderit corporis beatae? Id eius nesciunt
+            inventore corporis repellendus in, expedita modi facilis quaerat, molestias quia praesentium est quis
+            laboriosam cupiditate, ducimus adipisci pariatur? Quisquam, eos, vitae officiis fugit corrupti id esse,
+            tempore magnam beatae quibusdam ea ipsum. Deleniti aspernatur voluptates non.</p>
+    </div>
+</body>
+
+</html>
